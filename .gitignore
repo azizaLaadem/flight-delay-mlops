@@ -1,0 +1,46 @@
+# Environnement virtuel
+uv/
+
+# Données (gérées par DVC)
+/data/
+
+# Modèles entraînés
+/models/
+
+# DVC
+.dvc/cache/
+.dvc/tmp/
+
+# Ignorer tous les fichiers pyc
+*.pyc
+__pycache__/
+
+# Ignorer les dossiers __pycache__ partout
+**/__pycache__/
+
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# MLflow
+mlruns/
+
+
+catboost_info/
+
+
+# Airflow
+airflow/.env
+airflow/config/
+airflow/logs/
+airflow/plugins/
+
+# Rapports Evidently (artifacts générés)
+reports/
+*.html
+*.json
+
+
+
